@@ -48,7 +48,6 @@ socket.addEventListener("message", function (m) {
 // // Prompt user for input
 function promptUser() {
   rl.question("", (message) => {
-    console.log(message);
     var obj = new Object();
     obj.id = uuid;
     obj.name = MY_SYSTEM;
